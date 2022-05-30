@@ -3,7 +3,7 @@
 //
 // Jazyk C disponuje následujícími typy:
 // celočíselné:
-// int               - velikost záleží na architektuře),
+// int               - velikost záleží na architektuře,
 // long int (long)   - 64 bit
 // short int (short) - 16 bit
 // char              - 8 bit
