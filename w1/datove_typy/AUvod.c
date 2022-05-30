@@ -18,7 +18,20 @@
 // C neposkytuje datový typ boolean. Namísto toho používáme int, který znamená
 // 0                     - false
 // cokoliv jiného, než 0 - true;
-# include <stdio.h>
+
+// v knihovně stdint.h je možné nalézt následující definované typy:
+// více zde: https://www.gnu.org/software/libc/manual/html_node/Integers.html
+// int8_t
+// int16_t
+// int32_t
+// int64_t
+// uint8_t
+// uint16_t
+// uint32_t
+// uint64_t
+
+#include <stdio.h>
+#include <stdint.h>
 int main(int argc, char ** argv) {
     printf("hello\n");
 }
