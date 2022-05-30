@@ -30,6 +30,7 @@
 // uint32_t
 // uint64_t
 
+// Chci-li znát velikost datového typu v bytech, použiji makro sizeof(n)
 #include <stdio.h>
 #include <stdint.h>
 int main(int argc, char ** argv) {
