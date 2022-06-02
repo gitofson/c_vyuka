@@ -37,3 +37,14 @@
 
 // Makro s parametry:
 #define jmeno_makra(arg1, ..., argN) hodnota_makra;
+
+//Předdefinovaná makra:
+// vrací    jméno       rozsah použití
+// znak     isanum      číslice, malá a velká písmena
+// znak     isalpha     malá a velká písmena
+// 1        isascii     ASCII znaky (0-127)
+// znak     iscntrl     Ctrl znaky (1-26)
+// znak     isdigit     číslice
+// znak     islower     malá písmena
+// 1        isprint     ASCII znaky (0-127)
+//...
