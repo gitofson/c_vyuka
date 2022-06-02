@@ -8,4 +8,4 @@ include_directories(w1)
 include_directories(w1/datove_typy)
 
 add_executable(c_vyuka
-        w1/terminalovy_vstup_vystup/AUvod.c)
+        w1/terminalovy_vstup_vystup/AUvod.c w1/datove_typy/CKonstanty.c)
