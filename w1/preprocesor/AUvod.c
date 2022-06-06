@@ -37,6 +37,9 @@
 
 // Makro s parametry:
 #define jmeno_makra(arg1, ..., argN) hodnota_makra;
+// zásady: nepoužívat = mezi jménem a hodnotou, nepoužívat středník na konci,
+// parametry v hodnotě vždy závorkovat. Pro odřádkování používáme znak \
+// Př.: #define inc(x) ((x) + 1)
 
 //Předdefinovaná makra (#include <stdio.h>):
 

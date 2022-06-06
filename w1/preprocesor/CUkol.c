@@ -16,3 +16,16 @@
 // na_treti(i)
 // na_treti(2 + 3)
 // na_treti(i * j + 1)
+
+// 4, definujte makro je_velke(c), které vrátí 0 není-li znak velké písmeno
+// a 1, je-li to velké písmeno.
+
+// 5, definujte makro lze_tisknout(c), které zjistí, zda je znak tisknutelný
+// (od ASCII hodnoty 32 - 126). Pomocí něho vytiskněte ASCII tabulku.
+
+// 6. definujte makro cti_int(i), které čte z klávesnice celé číslo. Musí
+// fungovat i ve výrazu, např.: if ((j = cti_int(k)) == 0)
+// Nápověda: Využijte operátoru čárky.
+
+// 7. předchozí příklad rozdělte do dvou souborů makro.h a hlavni.c a pomocí
+// #include zajistěte správné chování programu.
