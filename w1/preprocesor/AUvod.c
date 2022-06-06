@@ -38,7 +38,13 @@
 // Makro s parametry:
 #define jmeno_makra(arg1, ..., argN) hodnota_makra;
 
-//Předdefinovaná makra:
+//Předdefinovaná makra (#include <stdio.h>):
+
+#define getchar()    getc(stdin)
+#define putchar(c)   putc(c, stdout)
+
+//Předdefinovaná makra (#include <ctype.h>):
+
 // vrací    jméno       rozsah použití
 // znak     isanum      číslice, malá a velká písmena
 // znak     isalpha     malá a velká písmena
@@ -46,5 +52,13 @@
 // znak     iscntrl     Ctrl znaky (1-26)
 // znak     isdigit     číslice
 // znak     islower     malá písmena
-// 1        isprint     ASCII znaky (0-127)
-//...
+// 1        isprint     tisknutelné znaky (32-126)
+// znak     ispunct     interpunkční znaky (tečka, čárka, lomítko, ...)
+// znak     isupper     velká písmena
+// znak     isxdigit    hexadec. číslice ('0' - '9', 'A'-'F', 'a'-'f')
+// 1        isgraph     znak s grafickou podobou (33-126)
+
+// makra pro konverzi znaku, např. b = tolower(c)
+// tolower
+// toupper
+// toascii
