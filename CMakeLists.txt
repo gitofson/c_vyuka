@@ -11,4 +11,5 @@ add_executable(c_vyuka
 #        w1/preprocesor/BPriklad.c w1/preprocesor/CUkol.c
 #        w2/funkce/AUvod.c
 #        w2/funkce/BUmisteniDefiniceFunkce.c w2/oblast_platnosti_identifikatoru/AUvod.c
-        w2/oblast_platnosti_identifikatoru/BCtiDopis.c)
+#        w2/oblast_platnosti_identifikatoru/BCtiDopis.c
+        w2/pametove_tridy/AUvod.c)

@@ -31,7 +31,7 @@ main(){
         ERROR("Nelze otevrit soubor")
     }
     while((aktualni = cti_radku()) != EOF){
-        nejdelsi = (aktualni > nejdelsi) ? nejdelsi:aktualni;
+        nejdelsi = (aktualni > nejdelsi) ? aktualni:nejdelsi;
     }
     printf("Delka radky je %d\n", nejdelsi);
 
