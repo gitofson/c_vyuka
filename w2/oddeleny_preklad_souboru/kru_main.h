@@ -14,5 +14,5 @@
 extern double obvod;
 
 // úplné funkční prototypy globálních funkcí modulu kru_main.c
-extern double vyp_prumeru(double polomer);
+double vyp_prumeru(double polomer);
 #endif //C_VYUKA_KRU_MAIN_H

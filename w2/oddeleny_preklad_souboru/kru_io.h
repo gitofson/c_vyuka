@@ -15,6 +15,5 @@
 // úplné funkční prototypy globálních funkcí modulu kru_main.c
 extern double vstup_dat();
 extern void vystup_dat(double obsah);
-#endif //C_VYUKA_KRU_MAIN_H
 
 #endif //C_VYUKA_KRU_IO_H
