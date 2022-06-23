@@ -16,4 +16,4 @@ add_executable(c_vyuka
 #        w2/oddeleny_preklad_souboru/kru_main.c w2/oddeleny_preklad_souboru/stddfn.h w2/oddeleny_preklad_souboru/kru_main.h w2/oddeleny_preklad_souboru/kru_io.h w2/oddeleny_preklad_souboru/kru_io.c
 #        w3/pointery/AUvod.c
         w3/pointery/BVolaniOdkazem.c
-        )
+        w3/pointery/DRuzneDefinicePointeru.cpp)
